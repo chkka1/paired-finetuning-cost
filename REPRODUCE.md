@@ -6,7 +6,7 @@
 
 - Python 解释器：`venv\Scripts\python.exe`（依赖见仓库 `requirements.txt`：torch/torchvision、pyarrow、pandas、scipy、matplotlib、Pillow）
 - GPU：单卡（本机 RTX 4060 Laptop，8 GB）；`--batch 64` 为统一值
-- **正文数据均由实验跑出**，由 `scripts/build_paper.py` 从 `results/*.json` 注入，不手写数字
+- **正文数据均由实验跑出**，各步骤结果保存在 `results/` 下
 
 ## 1. 原始数据获取（三类来源）
 
@@ -58,9 +58,6 @@ $py = "venv\Scripts\python.exe"
 & $py scripts\external_validation.py      # OfficeHome（OfficeHome 外部验证）
 & $py scripts\external_validation_core50.py   # CORe50（CORe50 外部验证）
 & $py scripts\external_validation_any.py core50all 10 external_validation3.json   # 全 11 会话
-& $py scripts\build_paper.py              # 组装成稿（含全部数字注入）
-& $py scripts\audit_tables.py             # 逐格核查（应为 0 失败）
-& $py scripts\audit_paper.py              # 数字可追溯 + 过度声明扫描
 & $py scripts\audit_reproducibility.py    # 复现性审计（数据/分析/训练/脚本覆盖）
 ```
 

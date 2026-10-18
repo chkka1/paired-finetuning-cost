@@ -12,6 +12,6 @@
 由 prepare_data.py 按说明重建，数据均来自公开数据集。
 
 复现方式：先准备数据，再运行 run_experiment.py 与 analyze.py 等脚本，也可用
-reproduce_all.ps1 一次跑完。正文数据均由实验跑出，由 scripts/build_paper.py 从 results/ 注入，不手写数字。
+reproduce_all.ps1 一次跑完。正文数据均由实验跑出，结果保存在 results/ 下。
 
 引用与许可分别见 CITATION.cff 与 LICENSE。
