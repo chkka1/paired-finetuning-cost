@@ -5,7 +5,7 @@
   - P2：加入 ΔIntra 后 R² 上升 ≥ 0.1；
   - F1：斜率 ≥ 0 且 95% CI 不含 0；
   - 统计：按(域 × 轮数)对 10 个种子取均值后回归；逐域检验做 Holm 校正。
-输出：results/external_validation2.json(供 build_paper 的 4.7 与表 8 使用)
+输出：results/external_validation2.json(供成稿使用)
 """
 from __future__ import annotations
 

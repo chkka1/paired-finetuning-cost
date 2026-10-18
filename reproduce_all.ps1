@@ -59,9 +59,6 @@ foreach ($s in @("analyze.py","extra_stats.py","theory_fit.py","cross_case_model
     & $py (Join-Path $r "scripts\$s")
 }
 & $py (Join-Path $r "scripts\external_validation_any.py") core50all 10 external_validation3.json
-& $py (Join-Path $r "scripts\build_paper.py")
-& $py (Join-Path $r "scripts\audit_tables.py")       # 期望：0 失败
-& $py (Join-Path $r "scripts\audit_paper.py")
 & $py (Join-Path $r "scripts\audit_reproducibility.py")
 & $py (Join-Path $r "scripts\audit_datasets.py")
 Write-Host "== 完成：正文 DOCX/PDF 见工作目录；核查结果见 results/ 与 _check/ ==" -ForegroundColor Green

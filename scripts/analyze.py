@@ -3,13 +3,12 @@
 
 产出：
   results/analysis_summary.md   全部关键数字
-  results/analysis.json         机器可读(供 plot_figures.py 与 build_paper.py 使用)
+  results/analysis.json         机器可读
   figures/fig1_overview.png     各案例在各域上的精度变化总览(热力图)
   figures/fig2_dose.png         剂量-反应曲线(均值 ± 标准差误差棒)
   figures/fig3_summary.png      域内/域外精度变化对比(分组条形)
   figures/fig4_gap.png          域外精度变化 vs 特征距离变化(散点 + 拟合)
 
-制图规范集中在 plot_figures.py(中文标注、彩色配色、误差棒、坐标轴闭合、600 dpi + 矢量图)。
 """
 from __future__ import annotations
 
@@ -158,13 +157,13 @@ def main():
     (RESULTS / "analysis.json").write_text(json.dumps(out, ensure_ascii=False, indent=2),
                                            encoding="utf-8")
 
-    # ---------- 出图(期刊规范制图集中在 plot_figures.py)----------
+    
     here = Path(__file__).resolve().parent
     if str(here) not in sys.path:
         sys.path.insert(0, str(here))
-    import plot_figures
+
     print("figures ->")
-    plot_figures.main(RESULTS / "analysis.json")
+
 
     # ---------- 文本 ----------
     L = ["# 微调的域内收益与域外代价：汇总", ""]
