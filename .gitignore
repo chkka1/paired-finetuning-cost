@@ -40,3 +40,5 @@ figures_color/
 
 # 图1（协议示意图）已改为文字，图文件仅本机留档
 figures/fig_protocol.*
+
+_check/*.bak
