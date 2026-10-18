@@ -1,0 +1,38 @@
+{
+  "pacs": {
+    "before": "467ca72091d0934a",
+    "after": "467ca72091d0934a",
+    "ok": true,
+    "skipped": false
+  },
+  "organ": {
+    "before": "298fefcd54bbeded",
+    "after": "298fefcd54bbeded",
+    "ok": true,
+    "skipped": false
+  },
+  "digits": {
+    "before": "ce44cdaa63fa28de",
+    "after": "ce44cdaa63fa28de",
+    "ok": true,
+    "skipped": false
+  },
+  "officehome": {
+    "before": "ec346d832f47ed60",
+    "after": "ec346d832f47ed60",
+    "ok": true,
+    "skipped": false
+  },
+  "core50": {
+    "before": "fd667a8dedf011b9",
+    "after": "fd667a8dedf011b9",
+    "ok": true,
+    "skipped": false
+  },
+  "core50all": {
+    "before": "7e39849ebafa1d8c",
+    "after": "7e39849ebafa1d8c",
+    "ok": true,
+    "skipped": false
+  }
+}

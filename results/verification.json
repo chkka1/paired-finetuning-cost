@@ -1,0 +1,993 @@
+{
+  "A_integrity": [
+    {
+      "file": "core50_resnet18_s64.csv",
+      "case": "core50",
+      "tag": "",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "core50_resnet18_s64_lr1e4.csv",
+      "case": "core50",
+      "tag": "_lr1e4",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "core50_resnet18_s64_strong.csv",
+      "case": "core50",
+      "tag": "_strong",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "core50all_resnet18_s64.csv",
+      "case": "core50all",
+      "tag": "",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 11,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "core50all_resnet18_s64_lr1e4.csv",
+      "case": "core50all",
+      "tag": "_lr1e4",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 11,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "core50all_resnet18_s64_strong.csv",
+      "case": "core50all",
+      "tag": "_strong",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 11,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "digits_resnet18_s64.csv",
+      "case": "digits",
+      "tag": "",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 3,
+      "dup": 0,
+      "n_constant": true,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "digits_resnet18_s64_lr1e4.csv",
+      "case": "digits",
+      "tag": "_lr1e4",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 3,
+      "dup": 0,
+      "n_constant": true,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "digits_resnet18_s64_strong.csv",
+      "case": "digits",
+      "tag": "_strong",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 3,
+      "dup": 0,
+      "n_constant": true,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "officehome_resnet18_s128.csv",
+      "case": "officehome",
+      "tag": "",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "officehome_resnet18_s128_e40.csv",
+      "case": "officehome",
+      "tag": "_e40",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "officehome_resnet18_s128_lr1e4.csv",
+      "case": "officehome",
+      "tag": "_lr1e4",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "officehome_resnet18_s128_lr1e4_e40.csv",
+      "case": "officehome",
+      "tag": "_lr1e4_e40",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "officehome_resnet18_s128_strong.csv",
+      "case": "officehome",
+      "tag": "_strong",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "officehome_resnet18_s128_strong_e40.csv",
+      "case": "officehome",
+      "tag": "_strong_e40",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "organ_resnet18_s64.csv",
+      "case": "organ",
+      "tag": "",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24
+      ],
+      "domains": 3,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "organ_resnet18_s64_lr1e4.csv",
+      "case": "organ",
+      "tag": "_lr1e4",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24
+      ],
+      "domains": 3,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "organ_resnet18_s64_spotcheck.csv",
+      "case": "organ",
+      "tag": "_spotcheck",
+      "seeds": 1,
+      "epochs": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "domains": 3,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "organ_resnet18_s64_strong.csv",
+      "case": "organ",
+      "tag": "_strong",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24
+      ],
+      "domains": 3,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 64
+    },
+    {
+      "file": "pacs_resnet18_s128.csv",
+      "case": "pacs",
+      "tag": "",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "pacs_resnet18_s128_lr1e4.csv",
+      "case": "pacs",
+      "tag": "_lr1e4",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    },
+    {
+      "file": "pacs_resnet18_s128_strong.csv",
+      "case": "pacs",
+      "tag": "_strong",
+      "seeds": 10,
+      "epochs": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "domains": 4,
+      "dup": 0,
+      "n_constant": false,
+      "baseline_complete": true,
+      "backbone": "resnet18",
+      "size": 128
+    }
+  ],
+  "B_seeds": {
+    "pacs_base": {
+      "epoch": 40,
+      "five": {
+        "photo": [
+          -0.6000000000000005,
+          0.5477225575051665
+        ],
+        "art_painting": [
+          -9.199999999999998,
+          2.2803508501982783
+        ],
+        "cartoon": [
+          -2.8000000000000007,
+          5.019960159204454
+        ],
+        "sketch": [
+          1.6,
+          7.368853370776216
+        ]
+      },
+      "ten": {
+        "photo": [
+          -0.8000000000000007,
+          0.9189365834726823
+        ],
+        "art_painting": [
+          -8.899999999999997,
+          2.330951164939614
+        ],
+        "cartoon": [
+          -2.7000000000000006,
+          3.743141876967946
+        ],
+        "sketch": [
+          1.2,
+          8.121302577515232
+        ]
+      }
+    },
+    "pacs_strong": {
+      "epoch": 40,
+      "five": {
+        "photo": [
+          -2.599999999999995,
+          0.5477225575051605
+        ],
+        "art_painting": [
+          -15.6,
+          2.073644135332773
+        ],
+        "cartoon": [
+          -6.200000000000001,
+          4.919349550499536
+        ],
+        "sketch": [
+          -7.6,
+          5.856620185738529
+        ]
+      },
+      "ten": {
+        "photo": [
+          -2.899999999999996,
+          0.9944289260117495
+        ],
+        "art_painting": [
+          -16.9,
+          2.6853512081497106
+        ],
+        "cartoon": [
+          -5.400000000000001,
+          4.087922591134904
+        ],
+        "sketch": [
+          -6.399999999999999,
+          6.56928881657334
+        ]
+      }
+    },
+    "pacs_lr1e4": {
+      "epoch": 40,
+      "five": {
+        "photo": [
+          0.40000000000000036,
+          0.5477225575051666
+        ],
+        "art_painting": [
+          -5.399999999999996,
+          1.6733200530681485
+        ],
+        "cartoon": [
+          -6.400000000000001,
+          2.6076809620810595
+        ],
+        "sketch": [
+          -4.0,
+          2.7386127875258297
+        ]
+      },
+      "ten": {
+        "photo": [
+          0.10000000000000009,
+          0.7378647873726225
+        ],
+        "art_painting": [
+          -5.2999999999999945,
+          1.2516655570345714
+        ],
+        "cartoon": [
+          -6.700000000000001,
+          2.869378562220979
+        ],
+        "sketch": [
+          -4.6,
+          2.590581230363392
+        ]
+      }
+    },
+    "organ_base": {
+      "epoch": 24,
+      "five": {
+        "axial": [
+          9.999999999999998,
+          0.0
+        ],
+        "coronal": [
+          17.399999999999995,
+          0.5477225575051661
+        ],
+        "sagittal": [
+          -0.5999999999999983,
+          0.894427190999914
+        ]
+      },
+      "ten": {
+        "axial": [
+          10.099999999999998,
+          0.31622776601683794
+        ],
+        "coronal": [
+          17.099999999999994,
+          1.4491376746189446
+        ],
+        "sagittal": [
+          -0.9999999999999976,
+          1.0540925533894585
+        ]
+      }
+    },
+    "organ_strong": {
+      "epoch": 24,
+      "five": {
+        "axial": [
+          9.400000000000004,
+          0.5477225575051612
+        ],
+        "coronal": [
+          18.799999999999994,
+          1.0954451150103333
+        ],
+        "sagittal": [
+          1.1102230246251565e-15,
+          0.7071067811865462
+        ]
+      },
+      "ten": {
+        "axial": [
+          9.200000000000006,
+          0.4216370213557802
+        ],
+        "coronal": [
+          18.799999999999994,
+          0.9189365834726825
+        ],
+        "sagittal": [
+          -0.49999999999999767,
+          0.8498365855987957
+        ]
+      }
+    },
+    "organ_lr1e4": {
+      "epoch": 24,
+      "five": {
+        "axial": [
+          9.999999999999998,
+          0.0
+        ],
+        "coronal": [
+          15.799999999999992,
+          1.9235384061671361
+        ],
+        "sagittal": [
+          -1.3999999999999968,
+          0.8944271909999145
+        ]
+      },
+      "ten": {
+        "axial": [
+          9.999999999999998,
+          0.0
+        ],
+        "coronal": [
+          15.799999999999994,
+          1.398411797560203
+        ],
+        "sagittal": [
+          -1.3999999999999968,
+          0.9660917830792951
+        ]
+      }
+    },
+    "digits_base": {
+      "epoch": 16,
+      "five": {
+        "mnist": [
+          4.0000000000000036,
+          0.0
+        ],
+        "emnist": [
+          -16.799999999999997,
+          1.3038404810405295
+        ],
+        "svhn": [
+          1.6000000000000008,
+          3.361547262794322
+        ]
+      },
+      "ten": {
+        "mnist": [
+          4.000000000000003,
+          9.362222582871203e-16
+        ],
+        "emnist": [
+          -16.5,
+          1.0801234497346437
+        ],
+        "svhn": [
+          0.9000000000000004,
+          2.601281735350223
+        ]
+      }
+    },
+    "digits_strong": {
+      "epoch": 16,
+      "five": {
+        "mnist": [
+          3.8000000000000034,
+          0.4472135954999583
+        ],
+        "emnist": [
+          -16.199999999999996,
+          1.7888543819998313
+        ],
+        "svhn": [
+          -1.5999999999999999,
+          0.5477225575051652
+        ]
+      },
+      "ten": {
+        "mnist": [
+          3.900000000000003,
+          0.3162277660168382
+        ],
+        "emnist": [
+          -16.299999999999997,
+          1.4181364924121764
+        ],
+        "svhn": [
+          -1.7999999999999996,
+          0.6324555320336752
+        ]
+      }
+    },
+    "digits_lr1e4": {
+      "epoch": 16,
+      "five": {
+        "mnist": [
+          4.0000000000000036,
+          0.0
+        ],
+        "emnist": [
+          -11.999999999999996,
+          1.8708286933869713
+        ],
+        "svhn": [
+          -1.6000000000000003,
+          1.8165902124584952
+        ]
+      },
+      "ten": {
+        "mnist": [
+          4.000000000000003,
+          9.362222582871203e-16
+        ],
+        "emnist": [
+          -12.799999999999997,
+          2.2010098692292246
+        ],
+        "svhn": [
+          -1.4000000000000004,
+          1.349897115421106
+        ]
+      }
+    },
+    "officehome_base": {
+      "epoch": 16,
+      "five": {
+        "Real World": [
+          5.600000000000005,
+          0.8944271909999167
+        ],
+        "Art": [
+          -0.8000000000000007,
+          0.8366600265340762
+        ],
+        "Clipart": [
+          2.220446049250313e-15,
+          0.9999999999999981
+        ],
+        "Product": [
+          4.600000000000003,
+          0.5477225575051666
+        ]
+      },
+      "ten": {
+        "Real World": [
+          5.500000000000005,
+          0.7071067811865481
+        ],
+        "Art": [
+          -0.8000000000000007,
+          0.6324555320336763
+        ],
+        "Clipart": [
+          -0.1999999999999974,
+          0.9189365834726796
+        ],
+        "Product": [
+          4.500000000000004,
+          0.5270462766947304
+        ]
+      }
+    },
+    "officehome_strong": {
+      "epoch": 16,
+      "five": {
+        "Real World": [
+          -1.9999999999999905,
+          1.0000000000000009
+        ],
+        "Art": [
+          -9.000000000000002,
+          0.0
+        ],
+        "Clipart": [
+          -4.399999999999999,
+          0.8944271909999167
+        ],
+        "Product": [
+          -1.9999999999999907,
+          0.0
+        ]
+      },
+      "ten": {
+        "Real World": [
+          -1.4999999999999925,
+          1.080123449734641
+        ],
+        "Art": [
+          -8.700000000000001,
+          0.4830458915396479
+        ],
+        "Clipart": [
+          -4.499999999999998,
+          0.7071067811865481
+        ],
+        "Product": [
+          -1.9999999999999918,
+          0.4714045207910295
+        ]
+      }
+    },
+    "officehome_lr1e4": {
+      "epoch": 16,
+      "five": {
+        "Real World": [
+          4.600000000000004,
+          1.140175425099139
+        ],
+        "Art": [
+          -1.1102230246251565e-15,
+          0.7071067811865462
+        ],
+        "Clipart": [
+          0.4000000000000014,
+          0.8944271909999145
+        ],
+        "Product": [
+          4.0000000000000036,
+          0.7071067811865481
+        ]
+      },
+      "ten": {
+        "Real World": [
+          4.600000000000003,
+          0.8432740427115686
+        ],
+        "Art": [
+          -0.1000000000000012,
+          0.7378647873726207
+        ],
+        "Clipart": [
+          0.10000000000000175,
+          0.8755950357709116
+        ],
+        "Product": [
+          4.200000000000004,
+          0.6324555320336764
+        ]
+      }
+    }
+  },
+  "C_batch": {
+    "organ_base": {
+      "epoch": 24,
+      "per_domain": [
+        "axial +10.20→+10.00 (配对 p=0.374)",
+        "coronal +17.40→+17.40 (配对 p=1.000)",
+        "sagittal -1.00→-0.60 (配对 p=0.477)"
+      ]
+    },
+    "organ_strong": {
+      "epoch": 24,
+      "per_domain": [
+        "axial +9.80→+9.40 (配对 p=0.178)",
+        "coronal +18.20→+18.80 (配对 p=0.426)",
+        "sagittal -0.40→+0.00 (配对 p=0.477)"
+      ]
+    },
+    "organ_lr1e4": {
+      "epoch": 24,
+      "per_domain": [
+        "axial +9.20→+10.00 (配对 p=0.016)",
+        "coronal +15.40→+15.80 (配对 p=0.477)",
+        "sagittal -0.40→-1.40 (配对 p=0.034)"
+      ]
+    },
+    "digits_base": {
+      "epoch": 16,
+      "per_domain": [
+        "emnist -14.60→-16.80 (配对 p=0.086)",
+        "mnist +4.00→+4.00 (配对 p=nan)",
+        "svhn +1.20→+1.60 (配对 p=0.587)"
+      ]
+    },
+    "digits_strong": {
+      "epoch": 16,
+      "per_domain": [
+        "emnist -15.40→-16.20 (配对 p=0.374)",
+        "mnist +3.80→+3.80 (配对 p=1.000)",
+        "svhn +0.80→-1.60 (配对 p=0.109)"
+      ]
+    },
+    "digits_lr1e4": {
+      "epoch": 16,
+      "per_domain": [
+        "emnist -11.80→-12.00 (配对 p=0.880)",
+        "mnist +4.00→+4.00 (配对 p=nan)",
+        "svhn -2.80→-1.60 (配对 p=0.208)"
+      ]
+    }
+  },
+  "D_budget": {
+    "base_e16_vs_e16": [
+      "Art -0.80→-0.70 (配对 p=0.678)",
+      "Clipart -0.20→-0.40 (配对 p=0.443)",
+      "Product +4.50→+4.70 (配对 p=0.443)",
+      "Real World +5.50→+5.50 (配对 p=1.000)"
+    ],
+    "base_e16_vs_e40": [
+      "Art -0.80→-0.50 (配对 p=0.081)",
+      "Clipart -0.20→-0.20 (配对 p=1.000)",
+      "Product +4.50→+5.10 (配对 p=0.024)",
+      "Real World +5.50→+5.70 (配对 p=0.343)"
+    ],
+    "_strong_e16_vs_e16": [
+      "Art -8.70→-12.20 (配对 p=0.000)",
+      "Clipart -4.50→-6.70 (配对 p=0.001)",
+      "Product -2.00→-5.80 (配对 p=0.000)",
+      "Real World -1.50→-4.60 (配对 p=0.000)"
+    ],
+    "_strong_e16_vs_e40": [
+      "Art -8.70→-10.50 (配对 p=0.000)",
+      "Clipart -4.50→-5.10 (配对 p=0.168)",
+      "Product -2.00→-3.70 (配对 p=0.000)",
+      "Real World -1.50→-2.40 (配对 p=0.182)"
+    ],
+    "_lr1e4_e16_vs_e16": [
+      "Art -0.10→+0.10 (配对 p=0.168)",
+      "Clipart +0.10→+0.10 (配对 p=1.000)",
+      "Product +4.20→+4.50 (配对 p=0.081)",
+      "Real World +4.60→+4.80 (配对 p=0.168)"
+    ],
+    "_lr1e4_e16_vs_e40": [
+      "Art -0.10→+0.40 (配对 p=0.052)",
+      "Clipart +0.10→+0.10 (配对 p=nan)",
+      "Product +4.20→+4.80 (配对 p=0.024)",
+      "Real World +4.60→+5.10 (配对 p=0.096)"
+    ]
+  },
+  "E_primary": {
+    "16 轮 / 10 种子(原主检验)": {
+      "slope": -0.178,
+      "ci": [
+        -0.768,
+        0.412
+      ],
+      "p": 0.5259,
+      "n": 15
+    },
+    "40 轮 / 10 种子(附加条件)": {
+      "slope": -0.034,
+      "ci": [
+        -0.476,
+        0.408
+      ],
+      "p": 0.8745,
+      "n": 24
+    }
+  }
+}

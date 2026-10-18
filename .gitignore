@@ -1,0 +1,39 @@
+﻿# 大数据缓存（由脚本重建，不入库）
+data/
+venv/
+__pycache__/
+*.npz
+*.parquet
+*.pyc
+~$*
+# 备份目录：只保留清单类文本
+_check/*
+!_check/*.md
+# 成稿文件（另存发布）
+*.docx
+*.pdf
+
+# 内部文档与模板（不公开）
+*.doc
+*.bak
+*.bak*
+_render/
+preview_final/
+投稿说明.md
+投稿前待办.md
+审核交接说明.md
+文献核实记录.md
+
+# 内部一次性脚本（非复现链）与草稿
+scripts/_*.py
+manuscript_src.md
+
+# 未被论文使用的数据集下载脚本
+scripts/download_eurosat.py
+
+# 论文正文（不公开，投稿期间）
+manuscript_final.md
+manuscript_src.md
+
+# 彩色图版（期刊要求黑白图，仅本机留档）
+figures_color/

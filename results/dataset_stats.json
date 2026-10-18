@@ -1,0 +1,128 @@
+{
+  "pacs": {
+    "domains": {
+      "art_painting": {
+        "n": 2048,
+        "n_train": 0,
+        "n_val": 0,
+        "n_test": 2048,
+        "n_classes": 7
+      },
+      "cartoon": {
+        "n": 2344,
+        "n_train": 0,
+        "n_val": 0,
+        "n_test": 2344,
+        "n_classes": 7
+      },
+      "photo": {
+        "n": 1670,
+        "n_train": 1170,
+        "n_val": 250,
+        "n_test": 250,
+        "n_classes": 7
+      },
+      "sketch": {
+        "n": 3929,
+        "n_train": 0,
+        "n_val": 0,
+        "n_test": 3929,
+        "n_classes": 7
+      }
+    },
+    "n_classes": 7,
+    "n_total": 9991,
+    "n_domains": 4
+  },
+  "organ": {
+    "domains": {
+      "axial": {
+        "n": 58830,
+        "n_train": 34561,
+        "n_val": 6491,
+        "n_test": 17778,
+        "n_classes": 11
+      },
+      "coronal": {
+        "n": 23583,
+        "n_train": 12975,
+        "n_val": 2392,
+        "n_test": 8216,
+        "n_classes": 11
+      },
+      "sagittal": {
+        "n": 25211,
+        "n_train": 13932,
+        "n_val": 2452,
+        "n_test": 8827,
+        "n_classes": 11
+      }
+    },
+    "n_classes": 11,
+    "n_total": 107624,
+    "n_domains": 3
+  },
+  "digits": {
+    "domains": {
+      "mnist": {
+        "n": 30000,
+        "n_train": 18000,
+        "n_val": 2000,
+        "n_test": 10000,
+        "n_classes": 10
+      },
+      "emnist": {
+        "n": 60000,
+        "n_train": 18000,
+        "n_val": 2000,
+        "n_test": 40000,
+        "n_classes": 10
+      },
+      "svhn": {
+        "n": 46032,
+        "n_train": 18000,
+        "n_val": 2000,
+        "n_test": 26032,
+        "n_classes": 10
+      }
+    },
+    "n_classes": 10,
+    "n_total": 136032,
+    "n_domains": 3
+  },
+  "officehome": {
+    "domains": {
+      "Art": {
+        "n": 2427,
+        "n_train": 0,
+        "n_val": 0,
+        "n_test": 2427,
+        "n_classes": 65
+      },
+      "Clipart": {
+        "n": 4365,
+        "n_train": 0,
+        "n_val": 0,
+        "n_test": 4365,
+        "n_classes": 65
+      },
+      "Product": {
+        "n": 4439,
+        "n_train": 0,
+        "n_val": 0,
+        "n_test": 4439,
+        "n_classes": 65
+      },
+      "Real World": {
+        "n": 4357,
+        "n_train": 3049,
+        "n_val": 654,
+        "n_test": 654,
+        "n_classes": 65
+      }
+    },
+    "n_classes": 65,
+    "n_total": 15588,
+    "n_domains": 4
+  }
+}

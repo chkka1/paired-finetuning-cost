@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "name": "PACS(HF flwrlabs/pacs)",
+      "kind": "file",
+      "exists": true
+    },
+    {
+      "name": "OfficeHome(HF flwrlabs/office-home)",
+      "kind": "dir",
+      "files": 3,
+      "mb": 1159.0
+    },
+    {
+      "name": "CORe50(HF adrake17/core50)",
+      "kind": "dir",
+      "files": 13,
+      "mb": 5861.0
+    },
+    {
+      "name": "MedMNIST/数字(torchvision 下载缓存)",
+      "kind": "dir",
+      "files": 40,
+      "mb": 2724.1
+    }
+  ],
+  "analysis": [
+    {
+      "script": "analyze.py",
+      "exit": 1,
+      "before": "17c84ac8f6e2331b",
+      "after": "17c84ac8f6e2331b",
+      "identical": true
+    },
+    {
+      "script": "extra_stats.py",
+      "exit": 0,
+      "before": "a37d4867d5bdbda1",
+      "after": "a37d4867d5bdbda1",
+      "identical": true
+    },
+    {
+      "script": "theory_fit.py",
+      "exit": 0,
+      "before": "a914b0a5de5527ec",
+      "after": "a914b0a5de5527ec",
+      "identical": true
+    },
+    {
+      "script": "cross_case_model.py",
+      "exit": 0,
+      "before": "478a23f942bdce88",
+      "after": "478a23f942bdce88",
+      "identical": true
+    },
+    {
+      "script": "regularities.py",
+      "exit": 0,
+      "before": "5f6e3ab10fea5e08",
+      "after": "5f6e3ab10fea5e08",
+      "identical": true
+    },
+    {
+      "script": "external_validation.py",
+      "exit": 0,
+      "before": "acc3d8c78ca53449",
+      "after": "acc3d8c78ca53449",
+      "identical": true
+    },
+    {
+      "script": "external_validation_core50.py",
+      "exit": 0,
+      "before": "c56cfcdddd341224",
+      "after": "c56cfcdddd341224",
+      "identical": true
+    }
+  ],
+  "training": {
+    "Art(域外)|0": {
+      "seed0_rerun": 0.4569,
+      "stored": 0.46
+    },
+    "Clipart(域外)|0": {
+      "seed0_rerun": 0.406,
+      "stored": 0.41
+    },
+    "Product(域外)|0": {
+      "seed0_rerun": 0.5792,
+      "stored": 0.58
+    },
+    "Real World(域内)|0": {
+      "seed0_rerun": 0.6927,
+      "stored": 0.69
+    },
+    "Art(域外)|1": {
+      "seed0_rerun": 0.4252,
+      "stored": 0.43
+    },
+    "Clipart(域外)|1": {
+      "seed0_rerun": 0.3787,
+      "stored": 0.38
+    },
+    "Product(域外)|1": {
+      "seed0_rerun": 0.558,
+      "stored": 0.56
+    },
+    "Real World(域内)|1": {
+      "seed0_rerun": 0.6774,
+      "stored": 0.68
+    }
+  },
+  "reproduce_coverage": {
+    "officehome(16 轮 ×3 档)": false,
+    "officehome 40 轮(_e40)": false,
+    "core50(官方测试会话)": false,
+    "core50all(全 11 会话)": false,
+    "seeds 5-9(扩种子)": false,
+    "batch=64 统一": false
+  }
+}

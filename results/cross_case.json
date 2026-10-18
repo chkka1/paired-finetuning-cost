@@ -1,0 +1,94 @@
+{
+  "n": 1380,
+  "per_case_kappa": {
+    "pacs": {
+      "kappa": -1.24,
+      "se": 0.14,
+      "ci95": [
+        -1.51,
+        -0.97
+      ],
+      "intercept": -6.75,
+      "r2": 0.103,
+      "n": 720
+    },
+    "organ": {
+      "kappa": -2.6,
+      "se": 0.28,
+      "ci95": [
+        -3.14,
+        -2.05
+      ],
+      "intercept": 10.07,
+      "r2": 0.198,
+      "n": 360
+    },
+    "digits": {
+      "kappa": -2.67,
+      "se": 0.08,
+      "ci95": [
+        -2.83,
+        -2.5
+      ],
+      "intercept": -2.96,
+      "r2": 0.771,
+      "n": 300
+    }
+  },
+  "pooled_common_slope": {
+    "kappa": -1.94,
+    "se": 0.1,
+    "r2": 0.569,
+    "n": 1380
+  },
+  "common_slope_F": {
+    "F": 13.79,
+    "df": [
+      4,
+      1376
+    ]
+  },
+  "loco": {
+    "pacs": {
+      "kappa_train": -2.64,
+      "rmse": 17.97,
+      "rmse_zero_baseline": 9.66,
+      "r2_test": -6.162,
+      "n": 720
+    },
+    "organ": {
+      "kappa_train": -1.8,
+      "rmse": 17.73,
+      "rmse_zero_baseline": 11.39,
+      "r2_test": -3.228,
+      "n": 360
+    },
+    "digits": {
+      "kappa_train": -1.6,
+      "rmse": 4.31,
+      "rmse_zero_baseline": 10.16,
+      "r2_test": 0.572,
+      "n": 300
+    }
+  },
+  "loco_mean": {
+    "rmse": 13.34,
+    "rmse_zero": 10.4,
+    "r2": -2.939
+  },
+  "prospective": {
+    "pacs": {
+      "r": 0.411,
+      "n": 90
+    },
+    "organ": {
+      "r": 0.988,
+      "n": 60
+    },
+    "digits": {
+      "r": 0.958,
+      "n": 60
+    },
+    "pooled_r": 0.316
+  }
+}

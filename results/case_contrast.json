@@ -1,0 +1,206 @@
+{
+  "pacs": {
+    "case": "pacs",
+    "tag": "3e-4",
+    "in_domain_base": 0.96,
+    "delta": {
+      "art_painting": -8.9,
+      "cartoon": -2.7,
+      "photo": -0.8,
+      "sketch": 1.2
+    },
+    "pooled_slope": -0.755,
+    "pooled_r2": 0.571,
+    "per_domain": {
+      "art_painting": -0.16,
+      "cartoon": -0.67,
+      "sketch": -0.55
+    }
+  },
+  "pacs_strong": {
+    "case": "pacs",
+    "tag": "1e-3",
+    "in_domain_base": 0.96,
+    "delta": {
+      "art_painting": -16.9,
+      "cartoon": -5.4,
+      "photo": -2.9,
+      "sketch": -6.4
+    },
+    "pooled_slope": -0.123,
+    "pooled_r2": 0.015,
+    "per_domain": {
+      "art_painting": -0.39,
+      "cartoon": -0.41,
+      "sketch": -0.25
+    }
+  },
+  "pacs_lr1e4": {
+    "case": "pacs",
+    "tag": "1e-4",
+    "in_domain_base": 0.96,
+    "delta": {
+      "art_painting": -5.3,
+      "cartoon": -6.7,
+      "photo": 0.1,
+      "sketch": -4.6
+    },
+    "pooled_slope": -0.488,
+    "pooled_r2": 0.238,
+    "per_domain": {
+      "art_painting": -0.34,
+      "cartoon": -0.56,
+      "sketch": -0.35
+    }
+  },
+  "organ": {
+    "case": "organ",
+    "tag": "3e-4",
+    "in_domain_base": 0.84,
+    "delta": {
+      "axial": 10.1,
+      "coronal": 17.1,
+      "sagittal": -1.0
+    },
+    "pooled_slope": -0.976,
+    "pooled_r2": 0.953,
+    "per_domain": {
+      "coronal": -0.54,
+      "sagittal": -0.21
+    }
+  },
+  "organ_strong": {
+    "case": "organ",
+    "tag": "1e-3",
+    "in_domain_base": 0.84,
+    "delta": {
+      "axial": 9.2,
+      "coronal": 18.8,
+      "sagittal": -0.5
+    },
+    "pooled_slope": -0.859,
+    "pooled_r2": 0.737,
+    "per_domain": {
+      "coronal": -0.37,
+      "sagittal": 0.06
+    }
+  },
+  "organ_lr1e4": {
+    "case": "organ",
+    "tag": "1e-4",
+    "in_domain_base": 0.84,
+    "delta": {
+      "axial": 10.0,
+      "coronal": 15.8,
+      "sagittal": -1.4
+    },
+    "pooled_slope": -0.976,
+    "pooled_r2": 0.953,
+    "per_domain": {
+      "coronal": -0.42,
+      "sagittal": -0.55
+    }
+  },
+  "digits": {
+    "case": "digits",
+    "tag": "3e-4",
+    "in_domain_base": 0.95,
+    "delta": {
+      "emnist": -16.5,
+      "mnist": 4.0,
+      "svhn": 0.9
+    },
+    "pooled_slope": -0.964,
+    "pooled_r2": 0.929,
+    "per_domain": {
+      "emnist": 0.11,
+      "svhn": -0.35
+    }
+  },
+  "digits_strong": {
+    "case": "digits",
+    "tag": "1e-3",
+    "in_domain_base": 0.95,
+    "delta": {
+      "emnist": -16.3,
+      "mnist": 3.9,
+      "svhn": -1.8
+    },
+    "pooled_slope": -0.693,
+    "pooled_r2": 0.48,
+    "per_domain": {
+      "emnist": -0.19,
+      "svhn": -0.66
+    }
+  },
+  "digits_lr1e4": {
+    "case": "digits",
+    "tag": "1e-4",
+    "in_domain_base": 0.95,
+    "delta": {
+      "emnist": -12.8,
+      "mnist": 4.0,
+      "svhn": -1.4
+    },
+    "pooled_slope": -0.964,
+    "pooled_r2": 0.929,
+    "per_domain": {
+      "emnist": -0.24,
+      "svhn": -0.56
+    }
+  },
+  "officehome": {
+    "case": "officehome",
+    "tag": "3e-4",
+    "in_domain_base": 0.69,
+    "delta": {
+      "Art": -0.8,
+      "Clipart": -0.2,
+      "Product": 4.5,
+      "Real World": 5.5
+    },
+    "pooled_slope": -0.178,
+    "pooled_r2": 0.032,
+    "per_domain": {
+      "Art": 0.19,
+      "Clipart": 0.4,
+      "Product": 0.84
+    }
+  },
+  "officehome_strong": {
+    "case": "officehome",
+    "tag": "1e-3",
+    "in_domain_base": 0.69,
+    "delta": {
+      "Art": -8.7,
+      "Clipart": -4.5,
+      "Product": -2.0,
+      "Real World": -1.5
+    },
+    "pooled_slope": -0.095,
+    "pooled_r2": 0.009,
+    "per_domain": {
+      "Art": 0.44,
+      "Clipart": 0.25,
+      "Product": 0.69
+    }
+  },
+  "officehome_lr1e4": {
+    "case": "officehome",
+    "tag": "1e-4",
+    "in_domain_base": 0.69,
+    "delta": {
+      "Art": -0.1,
+      "Clipart": 0.1,
+      "Product": 4.2,
+      "Real World": 4.6
+    },
+    "pooled_slope": -0.2,
+    "pooled_r2": 0.04,
+    "per_domain": {
+      "Art": -0.76,
+      "Clipart": 0.16,
+      "Product": 0.49
+    }
+  }
+}

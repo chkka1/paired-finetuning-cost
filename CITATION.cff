@@ -1,0 +1,13 @@
+﻿cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "Measurement of Fine-tuning Gains and Costs Based on a Paired Cross-domain Protocol"
+authors:
+  - family-names: Chang
+    given-names: Kaikai
+  - family-names: Luo
+    given-names: Xiaolong
+  - family-names: Xiang
+    given-names: Longwei
+year: 2026
+url: "https://github.com/chkka1/paired-finetuning-cost"
+license: MIT

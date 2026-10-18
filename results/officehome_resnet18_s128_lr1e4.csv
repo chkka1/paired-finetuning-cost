@@ -1,0 +1,241 @@
+﻿case,backbone,size,seed,epoch,domain,role,n,acc_nc,acc_ridge,fr_dist,mmd,intra,secs
+officehome,resnet18,128,0,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,0,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,0,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,0,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,0,1,Real World(域内),in,654.0000,0.6606,0.68,4.4267,1.4875,0.2
+officehome,resnet18,128,0,1,Art(域外),out,2427.0000,0.3766,0.41,44.4458,21.4840,0.3
+officehome,resnet18,128,0,1,Clipart(域外),out,4365.0000,0.3872,0.40,58.5840,29.6007,0.2
+officehome,resnet18,128,0,1,Product(域外),out,4439.0000,0.5233,0.55,20.6476,11.0865,0.2
+officehome,resnet18,128,0,2,Real World(域内),in,654.0000,0.6774,0.69,3.9427,1.3227,0.2
+officehome,resnet18,128,0,2,Art(域外),out,2427.0000,0.3972,0.43,36.1981,17.8737,0.3
+officehome,resnet18,128,0,2,Clipart(域外),out,4365.0000,0.4037,0.40,59.1595,32.1979,0.2
+officehome,resnet18,128,0,2,Product(域外),out,4439.0000,0.5503,0.57,18.4506,9.4077,0.2
+officehome,resnet18,128,0,4,Real World(域内),in,654.0000,0.7156,0.72,4.9066,1.4843,0.2
+officehome,resnet18,128,0,4,Art(域外),out,2427.0000,0.4363,0.45,31.2997,15.2693,0.3
+officehome,resnet18,128,0,4,Clipart(域外),out,4365.0000,0.4202,0.42,64.8587,31.8839,0.2
+officehome,resnet18,128,0,4,Product(域外),out,4439.0000,0.5992,0.60,21.4515,9.1857,0.2
+officehome,resnet18,128,0,8,Real World(域内),in,654.0000,0.7309,0.74,6.4710,1.6321,0.2
+officehome,resnet18,128,0,8,Art(域外),out,2427.0000,0.4277,0.45,33.6598,14.1769,0.2
+officehome,resnet18,128,0,8,Clipart(域外),out,4365.0000,0.4110,0.41,71.4921,33.0581,0.2
+officehome,resnet18,128,0,8,Product(域外),out,4439.0000,0.6128,0.61,24.2448,8.9253,0.2
+officehome,resnet18,128,0,16,Real World(域内),in,654.0000,0.7355,0.74,7.3387,1.7080,0.2
+officehome,resnet18,128,0,16,Art(域外),out,2427.0000,0.4335,0.45,35.0792,13.7592,0.2
+officehome,resnet18,128,0,16,Clipart(域外),out,4365.0000,0.4115,0.41,72.8869,32.8650,0.2
+officehome,resnet18,128,0,16,Product(域外),out,4439.0000,0.6204,0.62,24.8454,8.6927,0.2
+officehome,resnet18,128,1,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,1,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,1,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,1,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,1,1,Real World(域内),in,654.0000,0.6483,0.68,4.7811,1.4830,0.2
+officehome,resnet18,128,1,1,Art(域外),out,2427.0000,0.3997,0.43,43.8123,20.2959,0.3
+officehome,resnet18,128,1,1,Clipart(域外),out,4365.0000,0.3652,0.39,59.4450,28.0422,0.2
+officehome,resnet18,128,1,1,Product(域外),out,4439.0000,0.5226,0.55,21.3263,10.3251,0.2
+officehome,resnet18,128,1,2,Real World(域内),in,654.0000,0.6957,0.72,4.0784,1.2153,0.2
+officehome,resnet18,128,1,2,Art(域外),out,2427.0000,0.4133,0.45,38.7518,18.8434,0.3
+officehome,resnet18,128,1,2,Clipart(域外),out,4365.0000,0.3826,0.40,61.8201,30.2682,0.2
+officehome,resnet18,128,1,2,Product(域外),out,4439.0000,0.5672,0.57,19.7861,9.6500,0.2
+officehome,resnet18,128,1,4,Real World(域内),in,654.0000,0.7248,0.75,4.6904,1.2848,0.2
+officehome,resnet18,128,1,4,Art(域外),out,2427.0000,0.4462,0.46,33.8930,16.1372,0.3
+officehome,resnet18,128,1,4,Clipart(域外),out,4365.0000,0.3968,0.41,69.9267,32.5176,0.2
+officehome,resnet18,128,1,4,Product(域外),out,4439.0000,0.6046,0.61,24.1792,10.1668,0.2
+officehome,resnet18,128,1,8,Real World(域内),in,654.0000,0.7309,0.75,6.6810,1.4695,0.2
+officehome,resnet18,128,1,8,Art(域外),out,2427.0000,0.4615,0.46,36.2452,14.6953,0.2
+officehome,resnet18,128,1,8,Clipart(域外),out,4365.0000,0.4112,0.41,67.1733,28.9477,0.2
+officehome,resnet18,128,1,8,Product(域外),out,4439.0000,0.6200,0.62,23.6591,8.8665,0.2
+officehome,resnet18,128,1,16,Real World(域内),in,654.0000,0.7324,0.75,7.3616,1.5400,0.2
+officehome,resnet18,128,1,16,Art(域外),out,2427.0000,0.4623,0.46,38.0905,15.1692,0.2
+officehome,resnet18,128,1,16,Clipart(域外),out,4365.0000,0.4121,0.42,70.3593,29.4645,0.2
+officehome,resnet18,128,1,16,Product(域外),out,4439.0000,0.6236,0.62,26.4692,9.3878,0.2
+officehome,resnet18,128,2,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,2,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,2,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,2,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,2,1,Real World(域内),in,654.0000,0.6407,0.67,6.2158,1.7431,0.2
+officehome,resnet18,128,2,1,Art(域外),out,2427.0000,0.3918,0.42,46.6816,22.6540,0.3
+officehome,resnet18,128,2,1,Clipart(域外),out,4365.0000,0.3562,0.38,62.5629,29.2075,0.2
+officehome,resnet18,128,2,1,Product(域外),out,4439.0000,0.5197,0.55,28.2310,13.8033,0.2
+officehome,resnet18,128,2,2,Real World(域内),in,654.0000,0.6865,0.70,3.9611,1.2989,0.2
+officehome,resnet18,128,2,2,Art(域外),out,2427.0000,0.3951,0.45,37.6847,19.6977,0.3
+officehome,resnet18,128,2,2,Clipart(域外),out,4365.0000,0.3814,0.39,53.8505,28.4698,0.2
+officehome,resnet18,128,2,2,Product(域外),out,4439.0000,0.5589,0.57,19.9353,9.9811,0.2
+officehome,resnet18,128,2,4,Real World(域内),in,654.0000,0.7110,0.72,4.7603,1.4017,0.2
+officehome,resnet18,128,2,4,Art(域外),out,2427.0000,0.4297,0.46,33.0481,16.5855,0.3
+officehome,resnet18,128,2,4,Clipart(域外),out,4365.0000,0.3982,0.40,56.2962,27.2805,0.2
+officehome,resnet18,128,2,4,Product(域外),out,4439.0000,0.6035,0.60,21.9284,9.8471,0.2
+officehome,resnet18,128,2,8,Real World(域内),in,654.0000,0.7324,0.71,6.6730,1.6068,0.2
+officehome,resnet18,128,2,8,Art(域外),out,2427.0000,0.4417,0.46,33.5758,14.0636,0.3
+officehome,resnet18,128,2,8,Clipart(域外),out,4365.0000,0.3929,0.39,60.7111,27.0580,0.2
+officehome,resnet18,128,2,8,Product(域外),out,4439.0000,0.6137,0.61,23.9172,9.0347,0.2
+officehome,resnet18,128,2,16,Real World(域内),in,654.0000,0.7248,0.72,7.5949,1.7189,0.2
+officehome,resnet18,128,2,16,Art(域外),out,2427.0000,0.4409,0.46,35.9411,13.8560,0.2
+officehome,resnet18,128,2,16,Clipart(域外),out,4365.0000,0.3968,0.40,61.4106,26.0177,0.2
+officehome,resnet18,128,2,16,Product(域外),out,4439.0000,0.6152,0.61,24.7143,8.5591,0.2
+officehome,resnet18,128,3,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,3,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,3,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,3,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,3,1,Real World(域内),in,654.0000,0.6590,0.69,5.1830,1.4901,0.2
+officehome,resnet18,128,3,1,Art(域外),out,2427.0000,0.3688,0.44,49.4939,22.9782,0.3
+officehome,resnet18,128,3,1,Clipart(域外),out,4365.0000,0.3707,0.40,57.9984,26.4382,0.2
+officehome,resnet18,128,3,1,Product(域外),out,4439.0000,0.5215,0.56,24.6476,12.5228,0.2
+officehome,resnet18,128,3,2,Real World(域内),in,654.0000,0.6881,0.71,4.2108,1.3170,0.2
+officehome,resnet18,128,3,2,Art(域外),out,2427.0000,0.4021,0.44,39.9214,20.0359,0.3
+officehome,resnet18,128,3,2,Clipart(域外),out,4365.0000,0.3741,0.40,66.4739,31.9153,0.2
+officehome,resnet18,128,3,2,Product(域外),out,4439.0000,0.5544,0.58,24.0681,11.4724,0.2
+officehome,resnet18,128,3,4,Real World(域内),in,654.0000,0.7217,0.74,5.3163,1.5230,0.2
+officehome,resnet18,128,3,4,Art(域外),out,2427.0000,0.4170,0.46,36.2970,17.4340,0.2
+officehome,resnet18,128,3,4,Clipart(域外),out,4365.0000,0.3989,0.41,66.5987,29.6622,0.2
+officehome,resnet18,128,3,4,Product(域外),out,4439.0000,0.5954,0.60,25.8222,11.1111,0.2
+officehome,resnet18,128,3,8,Real World(域内),in,654.0000,0.7278,0.74,7.3030,1.8709,0.2
+officehome,resnet18,128,3,8,Art(域外),out,2427.0000,0.4388,0.46,36.3920,15.0852,0.2
+officehome,resnet18,128,3,8,Clipart(域外),out,4365.0000,0.4142,0.42,71.2583,29.3591,0.2
+officehome,resnet18,128,3,8,Product(域外),out,4439.0000,0.6155,0.61,28.6601,10.5716,0.2
+officehome,resnet18,128,3,16,Real World(域内),in,654.0000,0.7263,0.74,8.5187,1.9936,0.2
+officehome,resnet18,128,3,16,Art(域外),out,2427.0000,0.4413,0.46,38.8318,14.7990,0.2
+officehome,resnet18,128,3,16,Clipart(域外),out,4365.0000,0.4163,0.42,71.1033,27.7421,0.2
+officehome,resnet18,128,3,16,Product(域外),out,4439.0000,0.6231,0.62,29.4476,10.0875,0.2
+officehome,resnet18,128,4,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,4,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,4,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,4,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,4,1,Real World(域内),in,654.0000,0.6376,0.67,4.7283,1.4850,0.2
+officehome,resnet18,128,4,1,Art(域外),out,2427.0000,0.4001,0.44,43.4502,20.1839,0.3
+officehome,resnet18,128,4,1,Clipart(域外),out,4365.0000,0.3723,0.40,68.8687,31.3616,0.2
+officehome,resnet18,128,4,1,Product(域外),out,4439.0000,0.5204,0.55,22.6250,10.8616,0.2
+officehome,resnet18,128,4,2,Real World(域内),in,654.0000,0.6743,0.70,3.8774,1.3114,0.2
+officehome,resnet18,128,4,2,Art(域外),out,2427.0000,0.4351,0.46,34.4263,16.8019,0.3
+officehome,resnet18,128,4,2,Clipart(域外),out,4365.0000,0.3913,0.42,60.5198,30.6242,0.2
+officehome,resnet18,128,4,2,Product(域外),out,4439.0000,0.5636,0.59,19.0999,9.1020,0.2
+officehome,resnet18,128,4,4,Real World(域内),in,654.0000,0.7248,0.73,4.8068,1.4448,0.2
+officehome,resnet18,128,4,4,Art(域外),out,2427.0000,0.4499,0.47,31.6444,15.2429,0.2
+officehome,resnet18,128,4,4,Clipart(域外),out,4365.0000,0.3982,0.41,69.2582,33.0024,0.2
+officehome,resnet18,128,4,4,Product(域外),out,4439.0000,0.6049,0.62,24.1653,9.9843,0.2
+officehome,resnet18,128,4,8,Real World(域内),in,654.0000,0.7324,0.74,6.6086,1.6374,0.2
+officehome,resnet18,128,4,8,Art(域外),out,2427.0000,0.4586,0.47,34.3731,14.6742,0.2
+officehome,resnet18,128,4,8,Clipart(域外),out,4365.0000,0.4121,0.42,76.6903,33.8562,0.2
+officehome,resnet18,128,4,8,Product(域外),out,4439.0000,0.6229,0.63,27.7890,10.1623,0.2
+officehome,resnet18,128,4,16,Real World(域内),in,654.0000,0.7401,0.73,7.5232,1.7265,0.2
+officehome,resnet18,128,4,16,Art(域外),out,2427.0000,0.4635,0.47,35.7614,13.9510,0.2
+officehome,resnet18,128,4,16,Clipart(域外),out,4365.0000,0.4153,0.42,79.4583,34.5076,0.2
+officehome,resnet18,128,4,16,Product(域外),out,4439.0000,0.6290,0.63,28.9028,10.2474,0.2
+officehome,resnet18,128,5,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,5,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,5,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,5,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,5,1,Real World(域内),in,654.0000,0.6330,0.66,4.5255,1.4388,0.2
+officehome,resnet18,128,5,1,Art(域外),out,2427.0000,0.3754,0.43,43.1975,22.3095,0.3
+officehome,resnet18,128,5,1,Clipart(域外),out,4365.0000,0.3629,0.40,59.8463,26.9098,0.2
+officehome,resnet18,128,5,1,Product(域外),out,4439.0000,0.5010,0.55,21.7452,11.7599,0.2
+officehome,resnet18,128,5,2,Real World(域内),in,654.0000,0.6728,0.68,4.2558,1.2728,0.2
+officehome,resnet18,128,5,2,Art(域外),out,2427.0000,0.4001,0.44,35.2255,17.6823,0.3
+officehome,resnet18,128,5,2,Clipart(域外),out,4365.0000,0.3675,0.40,57.1542,29.4058,0.2
+officehome,resnet18,128,5,2,Product(域外),out,4439.0000,0.5501,0.58,18.7971,9.5644,0.2
+officehome,resnet18,128,5,4,Real World(域内),in,654.0000,0.7110,0.73,5.6363,1.5359,0.2
+officehome,resnet18,128,5,4,Art(域外),out,2427.0000,0.4248,0.47,32.3478,15.8214,0.3
+officehome,resnet18,128,5,4,Clipart(域外),out,4365.0000,0.3901,0.41,63.9749,30.8731,0.2
+officehome,resnet18,128,5,4,Product(域外),out,4439.0000,0.5904,0.60,20.9431,9.2486,0.2
+officehome,resnet18,128,5,8,Real World(域内),in,654.0000,0.7416,0.73,6.7559,1.5641,0.2
+officehome,resnet18,128,5,8,Art(域外),out,2427.0000,0.4532,0.47,32.6056,13.4597,0.2
+officehome,resnet18,128,5,8,Clipart(域外),out,4365.0000,0.4016,0.41,62.2015,28.2063,0.2
+officehome,resnet18,128,5,8,Product(域外),out,4439.0000,0.6116,0.62,22.3178,8.8810,0.2
+officehome,resnet18,128,5,16,Real World(域内),in,654.0000,0.7446,0.74,8.0593,1.7455,0.2
+officehome,resnet18,128,5,16,Art(域外),out,2427.0000,0.4524,0.47,35.4645,13.8595,0.2
+officehome,resnet18,128,5,16,Clipart(域外),out,4365.0000,0.4044,0.41,62.7676,27.6362,0.2
+officehome,resnet18,128,5,16,Product(域外),out,4439.0000,0.6240,0.62,24.0865,8.9433,0.2
+officehome,resnet18,128,6,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,6,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,6,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,6,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,6,1,Real World(域内),in,654.0000,0.6468,0.67,5.3750,1.7155,0.2
+officehome,resnet18,128,6,1,Art(域外),out,2427.0000,0.3832,0.42,49.5797,23.4363,0.3
+officehome,resnet18,128,6,1,Clipart(域外),out,4365.0000,0.3505,0.39,72.7413,34.0918,0.2
+officehome,resnet18,128,6,1,Product(域外),out,4439.0000,0.5172,0.56,23.1160,12.3836,0.2
+officehome,resnet18,128,6,2,Real World(域内),in,654.0000,0.6758,0.71,4.1990,1.3874,0.2
+officehome,resnet18,128,6,2,Art(域外),out,2427.0000,0.4026,0.44,37.9587,18.6010,0.3
+officehome,resnet18,128,6,2,Clipart(域外),out,4365.0000,0.3691,0.40,70.6878,35.2058,0.2
+officehome,resnet18,128,6,2,Product(域外),out,4439.0000,0.5531,0.58,20.9671,10.3194,0.2
+officehome,resnet18,128,6,4,Real World(域内),in,654.0000,0.7171,0.74,4.9015,1.4712,0.2
+officehome,resnet18,128,6,4,Art(域外),out,2427.0000,0.4409,0.45,32.1749,15.9616,0.2
+officehome,resnet18,128,6,4,Clipart(域外),out,4365.0000,0.3883,0.41,70.1732,34.9606,0.2
+officehome,resnet18,128,6,4,Product(域外),out,4439.0000,0.5992,0.60,22.1235,9.8989,0.2
+officehome,resnet18,128,6,8,Real World(域内),in,654.0000,0.7462,0.74,6.7720,1.7342,0.2
+officehome,resnet18,128,6,8,Art(域外),out,2427.0000,0.4454,0.46,32.7004,14.0806,0.2
+officehome,resnet18,128,6,8,Clipart(域外),out,4365.0000,0.4041,0.41,67.4717,31.9570,0.2
+officehome,resnet18,128,6,8,Product(域外),out,4439.0000,0.6215,0.62,23.3659,8.9563,0.2
+officehome,resnet18,128,6,16,Real World(域内),in,654.0000,0.7492,0.74,8.0665,1.9330,0.2
+officehome,resnet18,128,6,16,Art(域外),out,2427.0000,0.4528,0.46,35.8469,14.3409,0.2
+officehome,resnet18,128,6,16,Clipart(域外),out,4365.0000,0.4048,0.41,72.3429,32.5685,0.2
+officehome,resnet18,128,6,16,Product(域外),out,4439.0000,0.6254,0.62,24.9638,9.0003,0.2
+officehome,resnet18,128,7,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,7,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,7,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,7,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,7,1,Real World(域内),in,654.0000,0.6407,0.68,4.1488,1.3024,0.2
+officehome,resnet18,128,7,1,Art(域外),out,2427.0000,0.3852,0.44,43.5686,20.3537,0.3
+officehome,resnet18,128,7,1,Clipart(域外),out,4365.0000,0.3503,0.38,71.3448,35.5801,0.2
+officehome,resnet18,128,7,1,Product(域外),out,4439.0000,0.5231,0.55,23.1436,11.9260,0.2
+officehome,resnet18,128,7,2,Real World(域内),in,654.0000,0.6911,0.71,3.8039,1.2629,0.2
+officehome,resnet18,128,7,2,Art(域外),out,2427.0000,0.4211,0.45,35.8524,17.7179,0.2
+officehome,resnet18,128,7,2,Clipart(域外),out,4365.0000,0.3590,0.39,75.8970,41.9458,0.2
+officehome,resnet18,128,7,2,Product(域外),out,4439.0000,0.5695,0.59,25.7012,12.6487,0.2
+officehome,resnet18,128,7,4,Real World(域内),in,654.0000,0.7309,0.73,4.9997,1.4165,0.2
+officehome,resnet18,128,7,4,Art(域外),out,2427.0000,0.4380,0.46,33.0101,15.4680,0.2
+officehome,resnet18,128,7,4,Clipart(域外),out,4365.0000,0.3851,0.40,73.6365,36.6963,0.2
+officehome,resnet18,128,7,4,Product(域外),out,4439.0000,0.6137,0.62,25.7456,11.9588,0.2
+officehome,resnet18,128,7,8,Real World(域内),in,654.0000,0.7431,0.73,6.8730,1.6498,0.2
+officehome,resnet18,128,7,8,Art(域外),out,2427.0000,0.4483,0.45,37.2438,14.8338,0.2
+officehome,resnet18,128,7,8,Clipart(域外),out,4365.0000,0.3844,0.40,75.4500,35.5494,0.2
+officehome,resnet18,128,7,8,Product(域外),out,4439.0000,0.6294,0.63,26.4905,10.7751,0.2
+officehome,resnet18,128,7,16,Real World(域内),in,654.0000,0.7416,0.74,8.0223,1.8033,0.2
+officehome,resnet18,128,7,16,Art(域外),out,2427.0000,0.4508,0.46,38.6606,14.0677,0.2
+officehome,resnet18,128,7,16,Clipart(域外),out,4365.0000,0.3904,0.40,77.1609,34.8491,0.2
+officehome,resnet18,128,7,16,Product(域外),out,4439.0000,0.6319,0.63,28.1299,10.5774,0.2
+officehome,resnet18,128,8,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,8,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,8,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,8,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,8,1,Real World(域内),in,654.0000,0.6300,0.67,4.2740,1.4386,0.2
+officehome,resnet18,128,8,1,Art(域外),out,2427.0000,0.3778,0.43,42.0165,20.0865,0.3
+officehome,resnet18,128,8,1,Clipart(域外),out,4365.0000,0.3769,0.40,67.6543,32.7000,0.2
+officehome,resnet18,128,8,1,Product(域外),out,4439.0000,0.5177,0.55,23.5004,12.1754,0.2
+officehome,resnet18,128,8,2,Real World(域内),in,654.0000,0.6697,0.69,3.9263,1.3648,0.2
+officehome,resnet18,128,8,2,Art(域外),out,2427.0000,0.3918,0.45,36.9595,18.2947,0.3
+officehome,resnet18,128,8,2,Clipart(域外),out,4365.0000,0.3865,0.41,70.1441,35.9163,0.2
+officehome,resnet18,128,8,2,Product(域外),out,4439.0000,0.5686,0.58,22.2826,11.6257,0.2
+officehome,resnet18,128,8,4,Real World(域内),in,654.0000,0.7171,0.73,4.5055,1.4171,0.2
+officehome,resnet18,128,8,4,Art(域外),out,2427.0000,0.4281,0.46,31.2814,15.6612,0.3
+officehome,resnet18,128,8,4,Clipart(域外),out,4365.0000,0.4069,0.42,63.8451,31.7633,0.2
+officehome,resnet18,128,8,4,Product(域外),out,4439.0000,0.6073,0.61,21.7302,9.4873,0.2
+officehome,resnet18,128,8,8,Real World(域内),in,654.0000,0.7217,0.73,6.3132,1.6975,0.2
+officehome,resnet18,128,8,8,Art(域外),out,2427.0000,0.4417,0.46,33.3542,14.8609,0.2
+officehome,resnet18,128,8,8,Clipart(域外),out,4365.0000,0.4099,0.42,68.1232,31.9035,0.2
+officehome,resnet18,128,8,8,Product(域外),out,4439.0000,0.6256,0.62,24.8420,9.9654,0.2
+officehome,resnet18,128,8,16,Real World(域内),in,654.0000,0.7309,0.73,7.5170,1.8164,0.2
+officehome,resnet18,128,8,16,Art(域外),out,2427.0000,0.4454,0.45,34.7236,14.3815,0.2
+officehome,resnet18,128,8,16,Clipart(域外),out,4365.0000,0.4112,0.42,68.2904,31.1673,0.2
+officehome,resnet18,128,8,16,Product(域外),out,4439.0000,0.6292,0.62,26.1739,9.6785,0.2
+officehome,resnet18,128,9,0,Real World(域内),in,654.0000,0.6972,0.69,5.7897,1.9375,0.2
+officehome,resnet18,128,9,0,Art(域外),out,2427.0000,0.4260,0.46,39.6629,24.0110,0.3
+officehome,resnet18,128,9,0,Clipart(域外),out,4365.0000,0.3890,0.41,100.6120,56.9959,0.2
+officehome,resnet18,128,9,0,Product(域外),out,4439.0000,0.5718,0.58,48.1269,30.4661,0.2
+officehome,resnet18,128,9,1,Real World(域内),in,654.0000,0.6483,0.67,5.0440,1.5301,0.2
+officehome,resnet18,128,9,1,Art(域外),out,2427.0000,0.3696,0.43,45.0862,20.9576,0.3
+officehome,resnet18,128,9,1,Clipart(域外),out,4365.0000,0.3549,0.39,73.2060,33.9794,0.2
+officehome,resnet18,128,9,1,Product(域外),out,4439.0000,0.5141,0.55,24.1952,12.5363,0.2
+officehome,resnet18,128,9,2,Real World(域内),in,654.0000,0.6957,0.71,3.8776,1.3662,0.2
+officehome,resnet18,128,9,2,Art(域外),out,2427.0000,0.3968,0.45,41.7856,21.2418,0.3
+officehome,resnet18,128,9,2,Clipart(域外),out,4365.0000,0.3714,0.39,68.7419,38.2164,0.2
+officehome,resnet18,128,9,2,Product(域外),out,4439.0000,0.5663,0.59,19.7480,10.0190,0.2
+officehome,resnet18,128,9,4,Real World(域内),in,654.0000,0.7141,0.74,4.5339,1.3728,0.2
+officehome,resnet18,128,9,4,Art(域外),out,2427.0000,0.4227,0.45,34.5339,16.8264,0.2
+officehome,resnet18,128,9,4,Clipart(域外),out,4365.0000,0.3938,0.40,66.8521,35.1786,0.2
+officehome,resnet18,128,9,4,Product(域外),out,4439.0000,0.6053,0.61,21.8863,9.2641,0.2
+officehome,resnet18,128,9,8,Real World(域内),in,654.0000,0.7355,0.73,6.3347,1.6362,0.2
+officehome,resnet18,128,9,8,Art(域外),out,2427.0000,0.4392,0.45,36.1967,15.3947,0.2
+officehome,resnet18,128,9,8,Clipart(域外),out,4365.0000,0.3961,0.39,74.3662,35.7730,0.2
+officehome,resnet18,128,9,8,Product(域外),out,4439.0000,0.6191,0.62,25.6317,9.2607,0.2
+officehome,resnet18,128,9,16,Real World(域内),in,654.0000,0.7324,0.73,7.9570,1.8327,0.2
+officehome,resnet18,128,9,16,Art(域外),out,2427.0000,0.4405,0.45,38.5953,15.2754,0.2
+officehome,resnet18,128,9,16,Clipart(域外),out,4365.0000,0.4082,0.40,74.6035,33.0250,0.2
+officehome,resnet18,128,9,16,Product(域外),out,4439.0000,0.6308,0.63,27.0971,9.2052,0.2
