@@ -6,7 +6,7 @@ C2  “先量距离、再决定是否微调”判据的离线验证(始终微调
 C3  案例内标准化后的距离-代价相关，以及 MMD 与 Fréchet 两种诊断量的对比
 
 数据来源：results/*.csv(逐轮、逐域、逐种子的原始结果)，不依赖 analysis.json。
-输出：results/extra_stats.json(供 build_paper.py 注入)+ 终端摘要。
+输出：results/extra_stats.json(供成稿使用)+ 终端摘要。
 """
 from __future__ import annotations
 

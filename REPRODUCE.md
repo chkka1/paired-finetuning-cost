@@ -6,7 +6,7 @@
 
 - Python 解释器：`venv\Scripts\python.exe`（依赖见仓库 `requirements.txt`：torch/torchvision、pyarrow、pandas、scipy、matplotlib、Pillow）
 - GPU：单卡（本机 RTX 4060 Laptop，8 GB）；`--batch 64` 为统一值
-- **正文数据均由实验跑出**，各步骤结果保存在 `results/` 下
+- **正文数据均为实验代码跑出的结果**，各步骤结果保存在 `results/` 下
 
 ## 1. 原始数据获取（三类来源）
 
