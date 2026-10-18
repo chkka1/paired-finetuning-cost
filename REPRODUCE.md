@@ -1,13 +1,12 @@
 # 复现说明（REPRODUCE）
 
-> 目标：让第三方（或后续的复现者）能在**同一台机器**上从原始数据重建全部缓存、结果与论文。
-> 本文件与 `reproduce_all.ps1` 放在工作目录（未写入仓库），定稿后一并同步。
+> 目标：从原始数据重建全部缓存、结果与论文所用数据。
 
 ## 0. 环境
 
 - Python 解释器：`venv\Scripts\python.exe`（依赖见仓库 `requirements.txt`：torch/torchvision、pyarrow、pandas、scipy、matplotlib、Pillow）
-- GPU：单卡（本机 RTX 3080，8 GB）；`--batch 64` 为统一值
-- 期刊/论文中的所有数字均**不手写**：由 `scripts/build_paper.py` 从 `results/*.json` 注入
+- GPU：单卡（本机 RTX 4060 Laptop，8 GB）；`--batch 64` 为统一值
+- **正文数据均由实验跑出**，由 `scripts/build_paper.py` 从 `results/*.json` 注入，不手写数字
 
 ## 1. 原始数据获取（三类来源）
 
@@ -53,11 +52,11 @@ PACS 128/40 轮、器官 64/24 轮、数字 64/16 轮；每案例 3 档学习率
 $py = "venv\Scripts\python.exe"
 & $py scripts\analyze.py                  # 主系列（10 种子 + 案例内过滤）
 & $py scripts\extra_stats.py              # 关键增量、判据、标准化诊断
-& $py scripts\theory_fit.py               # 距离-代价模型拟合（已从正文删表，留仓库）
-& $py scripts\cross_case_model.py         # 跨案例检验（已从正文删表，留仓库）
-& $py scripts\regularities.py             # 五数据集四条规律（正文 3.4）
-& $py scripts\external_validation.py      # OfficeHome（正文 4.6 / 表 5）
-& $py scripts\external_validation_core50.py   # CORe50（正文 4.7 / 表 6）
+& $py scripts\theory_fit.py               # 距离-代价模型拟合（保留在仓库）
+& $py scripts\cross_case_model.py         # 跨案例检验（保留在仓库）
+& $py scripts\regularities.py             # 五数据集四条规律
+& $py scripts\external_validation.py      # OfficeHome（OfficeHome 外部验证）
+& $py scripts\external_validation_core50.py   # CORe50（CORe50 外部验证）
 & $py scripts\external_validation_any.py core50all 10 external_validation3.json   # 全 11 会话
 & $py scripts\build_paper.py              # 组装成稿（含全部数字注入）
 & $py scripts\audit_tables.py             # 逐格核查（应为 0 失败）
@@ -84,7 +83,7 @@ $py = "venv\Scripts\python.exe"
 1. `torch.use_deterministic_algorithms(True, warn_only=True)`（可能在个别算子上报警并回退）；
 2. 环境变量 `CUBLAS_WORKSPACE_CONFIG=:4096:8`（CUDA ≥ 10.2 使用 cuBLAS 确定性路径）；
 3. 固定并记录 **torch/CUDA/cuDNN/驱动版本与 GPU 型号**（本机：torch 2.5.1+cu121、CUDA 12.1、**RTX 4060 Laptop**）；
-4. 论文与仓库写明：**允许的复现容差**（建议：精度变化 |Δ| ≤ 0.2 个百分点；本机实测为 0）✓。
+4. 仓库写明：**允许的复现容差**（建议：精度变化 |Δ| ≤ 0.2 个百分点；本机实测为 0）✓。
 
 ## 6. 复现本的已知偏差（务必写进论文或随稿说明）
 
