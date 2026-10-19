@@ -8,7 +8,7 @@
 - REPRODUCE.md：环境、数据来源、复现步骤与已知偏差
 - PREREGISTRATION.md：检验前固定的分析口径与证伪条件
 
-环境为 Python 3.9、torch 2.5.1+cu121、单卡 RTX 4060。训练缓存约 12 GB，不入库，
+环境为 Python 3.9、torch 2.5.1+cu121、单卡 RTX 4060 （Laptop，8 GB）。训练缓存约 12 GB，不入库，
 由 prepare_data.py 按说明重建，数据均来自公开数据集。
 
 复现方式：先准备数据，再运行 run_experiment.py 与 analyze.py 等脚本，也可用
